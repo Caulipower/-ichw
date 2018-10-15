@@ -17,5 +17,14 @@ TCP协议建立连接过程中，运行TCP客户程序的主机A和运行TCP服�
     3. 木马 (Trojan horse)
     4. 间谍软件 (Spyware)
     5. 广告软件 (Adware)
-    Backdoor
+    
+ Backdoor
     Botnet:  Command and Control, Zombie Computer
+* 防范方法：
+    1. 安装杀毒软件/安全防护软件, 及时打补丁
+    2. 使用防火墙, 禁止外部计算机通过网络访问本机
+    3. 不随便下载运行可执行程序
+    4. 不打开未知的邮件附件
+    5. U 盘 通常带毒, 打开前要先查毒
+    6. 不随便暴露自己的 email、生日、手机等重要信息
+    7. 不以 Administrator 权限操作计算机

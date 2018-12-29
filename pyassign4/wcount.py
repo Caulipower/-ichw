@@ -31,7 +31,7 @@ def wcount(lines, topn=10):
                 break
         else:  # 单词计数,不计入页面上网址
             if lines[i] not in count and ''.join(list(lines[i])[:4]) != 'http' \
-                    and ''.join(list(lines[i])[-4:]) != '.org':
+                    and ''.join(list(lines[i])[-4:]) != '.org' and lines[i] != '':
                 count[lines[i]] = 1
             elif lines[i] in count:
                 count[lines[i]] += 1

@@ -35,7 +35,7 @@ def wcount(lines, topn=10):
                 count[lines[i]] = 1
             elif lines[i] in count:
                 count[lines[i]] += 1
-    word_count = list(map(lambda x, y: (x, y), count.keys(), count.values()))  # 字典转列表
+    word_count = list(count.items())  # 字典转列表
     word_count.sort(key=lambda d: d[1], reverse=True)  # 排序
     if topn > len(word_count):
         topn = len(word_count)
